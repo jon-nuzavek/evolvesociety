@@ -1,0 +1,30 @@
+body {
+  background: #000000;
+  color: #00C9FF;
+  font: 400 20px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+a {
+  color: #00C9FF;
+}
+
+#social-container {
+  display: flex;
+  margin: -20px auto;
+  max-width: 100px;
+}
+
+#social-container > * {
+  flex: auto;
+  font-size: 40px;
+  margin: 0 16px;
+}
+
+.img-fluid {
+  width: 100%;
+}
